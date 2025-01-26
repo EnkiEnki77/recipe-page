@@ -50,7 +50,23 @@ span {
   line-height: 1;
 }
 
-.subtitle {
+/* preparation */
+
+.preparation-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--rose-800);
+  line-height: 1;
+}
+
+.preparation-list {
+  padding-left: 1.5em;
+  color: var(--stone-600);
+  /* font-size: 0.5rem; */
+}
+
+.preparation-item {
+  padding-left: 1em;
 }
 
 /* =============
@@ -67,4 +83,15 @@ span {
 
 .text-content {
   padding: 0 2em;
+}
+
+.subtitle {
+  margin-bottom: 2em;
+}
+
+.preparation {
+  background-color: var(--rose-50);
+  padding: 1.5em;
+  border-radius: 0.75em;
+  margin-bottom: 2em;
 }
