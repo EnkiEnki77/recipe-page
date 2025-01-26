@@ -28,8 +28,43 @@ body {
 
 img {
   max-width: 100%;
+  margin-bottom: 1.5em;
+  /* border-radius: 0.75em; */
 }
 
 /* =============
     TYPOGROPHY
 ============= */
+
+h1,
+h2,
+span {
+  font-weight: 700;
+}
+
+.title {
+  font-family: var(--young-serif);
+  font-size: 2.25rem;
+  font-weight: 400;
+  margin-bottom: 0.66em;
+  line-height: 1;
+}
+
+.subtitle {
+}
+
+/* =============
+    Layout
+============= */
+
+.card {
+  max-width: 700px;
+  width: 100%;
+  background-color: var(--white);
+  /* padding: 2.5em; */
+  /* border-radius: 1.5em; */
+}
+
+.text-content {
+  padding: 0 2em;
+}
