@@ -36,6 +36,12 @@ img {
     TYPOGROPHY
 ============= */
 
+li::marker {
+  color: var(--brown-800);
+  /* font-size: 0.85rem; */
+  font-weight: 700;
+}
+
 h1,
 h2,
 span {
@@ -59,14 +65,27 @@ span {
   line-height: 1;
 }
 
-.preparation-list {
+.preparation-list,
+.ingredients-list,
+.instructions-list {
   padding-left: 1.5em;
   color: var(--stone-600);
   /* font-size: 0.5rem; */
 }
 
-.preparation-item {
+.preparation-item,
+.ingredients-item,
+.instructions-item {
   padding-left: 1em;
+}
+
+.ingredients-title,
+.instructions-title,
+.nutrition-title {
+  color: var(--brown-800);
+  line-height: 1;
+  font-size: 1.75rem;
+  font-family: var(--young-serif);
 }
 
 /* =============
@@ -82,10 +101,16 @@ span {
 }
 
 .text-content {
-  padding: 0 2em;
+  padding: 0 2em 2em;
 }
 
 .subtitle {
+  margin-bottom: 2em;
+}
+
+.preparation,
+.ingredients,
+.instructions {
   margin-bottom: 2em;
 }
 
@@ -93,5 +118,36 @@ span {
   background-color: var(--rose-50);
   padding: 1.5em;
   border-radius: 0.75em;
-  margin-bottom: 2em;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tbody {
+  width: 100%;
+}
+
+tr {
+  border-bottom: 1px solid var(--stone-150);
+  width: 100%;
+}
+
+tr:last-child {
+  border: 0;
+}
+
+th {
+  text-align: left;
+  font-weight: 400;
+  /* width: calc(50% - 2em); */
+  color: var(--stone-600);
+  padding-left: 2em;
+}
+
+td {
+  text-align: left;
+  color: var(--rose-800);
+  font-weight: 700;
 }
