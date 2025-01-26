@@ -1,0 +1,35 @@
+:root {
+  --rose-800: #7a284e;
+  --rose-50: #fff7fb;
+  --stone-900: #312e2c;
+  --stone-600: #5f564d;
+  --stone-150: #e3ddd7;
+  --stone-100: #f3e5d7;
+  --brown-800: #854632;
+  --white: #fff;
+  --outfit: "Outfit", serif;
+  --young-serif: "Young Serif", serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin-top: 0;
+}
+
+body {
+  margin: 0;
+  font-family: var(--outfit);
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--stone-900);
+  line-height: 1.5;
+  background-color: var(--stone-100);
+}
+
+img {
+  max-width: 100%;
+}
+
+/* =============
+    TYPOGROPHY
+============= */
